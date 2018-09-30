@@ -6,7 +6,8 @@ for the puzzle.
 
 # Set up the problem
 rack_generator.R creates a data frame describing the 51480 possible starting positions
-for the balls.
+for the balls. The output of this script is the file arrangements.csv. This file is already
+included in the repo, so you can skip directly to rack_solver.R if you choose.
 
 # Solve the arrangements
 rack_solver.R parses each row of the data frame created in rack_generator into
